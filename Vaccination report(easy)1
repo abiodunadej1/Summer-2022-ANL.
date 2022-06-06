@@ -1,0 +1,13 @@
+Simple practice lab on Vaccination reports.
+Question:- 
+"We have a report on the number of flu vaccinagtions in a class of 20 people. It has the following numbers: 
+Never vaccinated = 5
+Vaccinated Once = 8
+Vaccinated twice = 4
+Vaccinated three times = 3.
+What is the mean number of times those people have been vaccinated?"
+
+CODE :-
+5+8+4+3=20 people(vaccinated + unvaccinated).
+Number of vaccinated/vacinnated_number = [0,0,0,0,0,1,1,1,1,1,1,1,1,2,2,2,2,3,3,3]
+print((8+8+9)/20)
