@@ -1,0 +1,8 @@
+This practice problem focused more on seat rows and columns.I was to create a 30 seat arrangement with 5 rows. I was on the app called "solo learn" and
+this was a mini practice coding lab on my data science with python journey.
+
+import numpy as np
+data = np.array([1,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,0,1,0,1,1,1,1,0,0,0,1,1,1,0])
+row = int(input())
+data = data.reshape(6,5)
+print(data[row])
